@@ -2,10 +2,10 @@
 #include <vector>
 class Sort{
 public:
-	void bubbleSort(std::vector<int>& nums);
+	void BubbleSort(std::vector<int>& nums);
 };
 
-void Sort::bubbleSort(std::vector<int>& nums) {
+void Sort::BubbleSort(std::vector<int>& nums) {
 	int n = nums.size();
 	//sort from small to big
 	for (int i = 0; i < n - 1; i++) {//scan n-1
@@ -21,7 +21,7 @@ int main()
 {
 	std::vector<int> nums = { 5,8,3,9,1 };
 	Sort mysort;
-	mysort.bubbleSort(nums);
+	mysort.BubbleSort(nums);
 	for (int i = 0; i < nums.size(); i++) {
 		std::cout << nums[i] << " ";
 	}
