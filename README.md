@@ -1,5 +1,4 @@
 # datastructure
-## ⚡️ 算法
 
 ### 排序
 
@@ -20,7 +19,7 @@
 > * k：代表数值中的 “数位” 个数
 > * n：代表数据规模
 > * m：代表数据的最大值减最小值
-> * 来自：[wikipedia . 排序算法](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+
 
 ### 查找
 
