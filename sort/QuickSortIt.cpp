@@ -20,7 +20,7 @@ int Sort:: Partition(std::vector<int>& nums, int left, int right) {
 			while (r > l && nums[l] <= temp) l++;
 			nums[r] = nums[l];
 		}
-		nums[r] = temp;
+		nums[l] = temp;
 	}
 	return l;
 }
