@@ -14,7 +14,7 @@ int Sort::Partition(std::vector<int>& nums,int left,int right) {
 		while (right > left && nums[left] <= temp) left++;
 		nums[right] = nums[left];
 	}
-	nums[right] = temp;
+	nums[left] = temp;
 	return left;
 }
 void Sort::QuickSort(std::vector<int>& nums, int left, int right)
