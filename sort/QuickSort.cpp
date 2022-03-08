@@ -17,7 +17,7 @@ void Sort::QuickSort(std::vector<int>& nums,int left,int right)
 			while (r > l && nums[l]<= temp) l++;
 			nums[r] = nums[l];
 		}
-		nums[r] = temp;
+		nums[l] = temp;
 		QuickSort(nums,left,l-1);
 		QuickSort(nums, r+1, right);
 	}
